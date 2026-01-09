@@ -23,7 +23,7 @@ def sendMessage():
         "to": TO_PHONE_NUMBER,
         "type": "template",
         "template": {
-            "name": "cita_taller",
+            "name": "cita_taller_buena",
             "language": {"code": "es_MX"},
             "components": [
                 {
@@ -31,23 +31,28 @@ def sendMessage():
                     "parameters": [
                         {
                             "type": "text",
-                            "parameter_name": "nombre_apellido",
-                            "text": "Fredi Gaxiola"
+                            "parameter_name": "nombre",
+                            "text": "Fredi Gaxiola Gutierrez"
                         },
                         {
                             "type": "text",
-                            "parameter_name": "taller",
-                            "text": "Yokohama Colosio"
+                            "parameter_name": "nom_suc",
+                            "text": "Econollantas Quiroga"
                         },
                         {
                             "type": "text",
-                            "parameter_name": "fecha",
+                            "parameter_name": "domicilio",
                             "text": "miércoles 26 de noviembre"
                         },
                         {
                             "type": "text",
+                            "parameter_name": "fecha",
+                            "text": "jueves 15 de enero"
+                        },
+                        {
+                            "type": "text",
                             "parameter_name": "hora",
-                            "text": "17:00"
+                            "text": "13:00"
                         }
                     ]
                 }
