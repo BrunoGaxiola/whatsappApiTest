@@ -41,11 +41,6 @@ def sendMessage():
                         },
                         {
                             "type": "text",
-                            "parameter_name": "domicilio",
-                            "text": "miércoles 26 de noviembre"
-                        },
-                        {
-                            "type": "text",
                             "parameter_name": "fecha",
                             "text": "jueves 15 de enero"
                         },
